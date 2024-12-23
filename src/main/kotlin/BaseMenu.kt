@@ -1,6 +1,6 @@
 abstract class BaseMenu<T>(
     protected val items: MutableList<T>,
-    private val menuUtils: MenuUtils,
+    protected val menuUtils: MenuUtils,
     private val itemType: String,
     private val createOption: String
 ) {
